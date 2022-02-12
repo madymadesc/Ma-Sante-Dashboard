@@ -1,0 +1,25 @@
+.toot{
+    margin-top: 50px;
+}
+
+.bton{
+    margin: auto 30%;
+    button{
+        margin-top: 100px;
+        background-color: #1D5F24;
+        border-radius: 10px;
+        font-size: 20px;
+        color: white;
+      }
+      button:hover{
+        background-color: #1D5F24;
+       border-radius: 20px;
+       transition: 0.5s;
+      }
+  }
+
+  h4{
+      margin-top: 30px;
+      font-weight: bold;
+      color: #1D5F24;
+  }

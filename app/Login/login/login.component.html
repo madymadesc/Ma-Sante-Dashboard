@@ -1,0 +1,18 @@
+
+<body>
+
+    <form #loginForm="ngForm"  id="container" autocomplete="off">
+        <img src="../../../assets/images/Frame.png">
+        <h1>Dashboard</h1>
+        <label>Mobile</label>
+        <input type="mobile" placeholder="Ex : 70000000" name="mobile" class="form-control p-0 border-0 " required>
+    
+        <label>Mot de passe</label>
+        <input type="password" required 
+        maxlength ='8' placeholder="*********" name="password" class="form-control p-0 border-0 " required>
+    <a href="#" routerLink="/menu">Mot de passe oublier ?</a>
+        <button type="submit"  routerLink="../../accueil">Connexion</button>   
+    </form> 
+        
+    </body>
+    

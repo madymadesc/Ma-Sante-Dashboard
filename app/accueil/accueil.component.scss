@@ -1,0 +1,45 @@
+.toot{
+    margin-top: 50px;
+}
+.total{
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 40px 0 rgba(6, 104, 3, 0.2), 0 5px 5px 0 rgba(1, 88, 8, 0.24);
+
+    h1{
+        font-size: 50px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+input{
+    outline-offset: -2px;
+    -webkit-appearance: none;
+    border: solid #1D5F24;
+    border-radius: 30px;
+    width: 80%; 
+    margin-left: 10px;
+    font-size: 20px;
+ }
+
+ table{
+    margin: 0 auto;
+    width: 90em;
+    thead{
+        tr{
+            th{
+                font-size: 25px;
+                text-align: center;
+                color: #1D5F24;
+                background-color: rgb(239, 241, 241);
+                box-shadow: 0 0 40px 0 rgba(6, 104, 3, 0.2), 0 5px 5px 0 rgba(1, 88, 8, 0.24);
+              
+            }
+        }
+        
+    }
+ }
